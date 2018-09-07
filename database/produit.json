@@ -1,0 +1,12 @@
+[
+{"type":"header","version":"4.8.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"tp_gestion_des_stocks_crud"},
+{"type":"table","name":"produit","database":"tp_gestion_des_stocks_crud","data":
+[
+{"id":"1","id_marque":"1","nom":"fiesta","prix":"5000.00","description":"couleur noire, bon etat, entretien ok"},
+{"id":"2","id_marque":"2","nom":"punto","prix":"3500.00","description":"prix a debatre, pneux neufs"},
+{"id":"3","id_marque":"3","nom":"corsa","prix":"7500.00","description":"45000km, diesel"},
+{"id":"4","id_marque":"1","nom":"focus","prix":"6000.00","description":"couleur noire, 5 portes"}
+]
+}
+]
