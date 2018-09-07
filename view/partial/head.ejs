@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="<%= site.description %>" />
+  <title><%= site.title %></title>
+  <link rel="stylesheet" href="styles/nav.css">
+  <link rel="stylesheet" href="styles/slider.css">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/user.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style/bill.css">
+  
+  
+  <script src="jquery/dist/jquery.js"></script>
+  <script src="ejs/ejs.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/slider2.js"></script>
+  <script src="js/user.js"></script>
+  <script src="js/bill.js"></script>
+ 
+	
+</head>
+<body>
+  <header id="header_main">
+    <%- include nav-main.ejs %>
+    <i id="burger" class="fas bar"></i>
+  </header>

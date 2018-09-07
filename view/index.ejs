@@ -1,0 +1,47 @@
+<%- include partial/head.ejs %>
+
+<section id="home">
+  <h1 class="title">Home - Simple Express Template</h1>
+  
+  
+  <div class="slider" id="slider">
+		<div class="slItems">
+			<div class="slItem" style="background-image: url('https://unsplash.it/1920/1080?image=990');">
+				<div class="slText">
+				</div>
+			</div>
+			<div class="slItem" style="background-image: url('https://unsplash.it/1920/1080?image=976');">
+				<div class="slText">
+					
+				</div>
+			</div>
+			<div class="slItem" style="background-image: url('https://unsplash.it/1920/1080?image=950');">
+				<div class="slText">
+					
+				</div>
+			</div>
+		</div>
+	</div>  
+  <div class="consigne">
+  <h2 class="title">Say my name, say my naaaame ( === <b><%= nom %></b> ))</h2>
+  <h3 class="title">TP Intro</h3>
+  <p>
+    Faire une courte <b>veille</b> sur les moteurs de template.<br>
+    Installer ejs (http://ejs.co/) dans un projet à part pour tester.<br>
+    Suivre la section "get started" de la doc officielle.
+  </p>
+  <h3 class="title">TP front</h3>
+  <p>
+    Intégrer un plugin jQuery de type slideshow.<br>
+    <b>Conseil</b>: choisir une solution bien documentée.
+  </p>
+  <hr>
+  <h3 class="title">TP back (en option)</h3>
+  <p>
+    Trouver et importer une base de données des pays du monde au format SQL (... ou JSON à convertir :D ).<br> Contrainte : la clé primaire (id) doit être numérique (ça ne devrait pas poser problème).<br> Utiliser phpMyAdmin pour modifier la table user.<br> Sa clé étrangère doit pointer vers le bonne colonne de la table country.
+  </p>
+  </div>
+</section>
+
+
+<%- include partial/footer.ejs %>
